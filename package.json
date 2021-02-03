@@ -1,0 +1,19 @@
+{
+  "name": "kaka-cli",
+  "version": "1.0.0",
+  "description": "自定义脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "kaka": "bin/kaka.js"
+  },
+  "author": "KaKa Xie",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/cli-shared-utils": "^4.5.11",
+    "chalk": "^4.1.0",
+    "commander": "^7.0.0"
+  }
+}
