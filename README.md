@@ -6,6 +6,10 @@
 
   > execa 是可以调用 shell 和本地外部程序的 javascript 封装。会启动子进程执行。支持多操作系统，包括 windows。如果父进程退出，则生成的全部子进程都被杀死。
 
+- [inquirer](https://www.npmjs.com/package/inquirer)
+
+  > 3
+
 - [commander](https://www.npmjs.com/package/commander)
 
   > 命令行工具
@@ -16,7 +20,7 @@
 
 - [semver](https://www.npmjs.com/package/semver)
 
-  > 获取版本号，可以直接`npm link semver`，执行 `semver v1.2.3` => `1.2.3`
+  > 获取版本号，可以直接`npm link`，执行 `semver v1.2.3` => `1.2.3`
 
 ## 文档
 
@@ -26,12 +30,12 @@
 
 1. \_\_dirname
 
-    ```text
-    __dirname： 获得当前执行文件所在目录的完整目录名 __filename：
-    获得当前执行文件的带有完整绝对路径的文件名
-    process.cwd()：获得当前执行node命令时候的文件夹目录名 ./：
-    不使用require时候与process.cwd()一样，使用require时候与__dirname一样
-    ```
+   ```text
+   __dirname： 获得当前执行文件所在目录的完整目录名 __filename：
+   获得当前执行文件的带有完整绝对路径的文件名
+   process.cwd()：获得当前执行node命令时候的文件夹目录名 ./：
+   不使用require时候与process.cwd()一样，使用require时候与__dirname一样
+   ```
 
 2. npm run test
 
