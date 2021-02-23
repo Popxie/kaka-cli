@@ -8,7 +8,7 @@
 
 - [inquirer](https://www.npmjs.com/package/inquirer)
 
-  > 3
+  > 询问插件，根据设置的问题来做出回答，具体使用可以参考`inquirer-demo/*.js`的例子
 
 - [commander](https://www.npmjs.com/package/commander)
 
