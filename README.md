@@ -45,3 +45,5 @@
 ```
 
 当执行 `npm run test hello` 或者 `npm run test -- hello`时会执行成`cross-env-shell VUE_CLI_TEST=true kaka create hello`
+
+[相关文档](https://github.com/woai3c/mini-cli)
