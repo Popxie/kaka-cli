@@ -1,7 +1,7 @@
 # 官方文档： https://prettier.io/docs/en/options.html
 trailingComma: 'none' # 数组，对象等末尾是否加逗号
 tabWidth: 2           # 缩进为2
-printWidth: 80        # 当行列达到60的时候就换行 -默认80
+printWidth: 100        # 当行列达到60的时候就换行 -默认80
 semi: false           # 分号 -默认true
 singleQuote: true     # 单引号 -默认true
 bracketSpacing: true  # {}之间是否有空格 -默认true
