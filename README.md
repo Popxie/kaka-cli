@@ -31,10 +31,9 @@
 1. \_\_dirname
 
    ```text
-   __dirname： 获得当前执行文件所在目录的完整目录名 __filename：
-   获得当前执行文件的带有完整绝对路径的文件名
-   process.cwd()：获得当前执行node命令时候的文件夹目录名 ./：
-   不使用require时候与process.cwd()一样，使用require时候与__dirname一样
+   __dirname: 获得当前执行文件所在目录的完整目录名（当前工作的目录）
+   __filename: 获得当前执行文件的带有完整绝对路径的文件名
+   process.cwd(): 获得当前执行node命令时候的文件夹目录名 ./：
    ```
 
 2. npm run test

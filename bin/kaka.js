@@ -18,7 +18,7 @@ program
     if (minimist(process.argv.slice(3))._.length > 1) {
       console.log(chalk.yellow('\n Info: You provided more than one argument. The first one will be used as the app\'s name, the rest are ignored.'))
     }
-    require('../lib/create')(name, options)
+    require('../lib/create')(name, { age: 2 })
   })
 // 最后执行
 program.parse(process.argv)
