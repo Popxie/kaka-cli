@@ -12,9 +12,8 @@ program
   .command('create <app-name>')
   .description('create a new project powered by vue-cli-service')
   .action((name, option, cmd) => {
-    console.log('name: ', name)
     const options = cleanArgs(cmd)
-    console.log('options: ', options)
+    console.log('cmd_options: ', options)
     if (minimist(process.argv.slice(3))._.length > 1) {
       console.log(chalk.yellow('\n Info: You provided more than one argument. The first one will be used as the app\'s name, the rest are ignored.'))
     }
@@ -48,6 +47,5 @@ function cleanArgs (cmd) {
       args[key] = cmd[key]
     }
   })
-  console.log('cleanArgs => args: ', args)
   return args
 }

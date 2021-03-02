@@ -25,10 +25,12 @@
     "inquirer": "^7.3.3",
     "isbinaryfile": "^4.0.6",
     "javascript-stringify": "^1.6.0",
+    "jscodeshift": "^0.11.0",
     "lodash.clonedeep": "^4.5.0",
     "minimist": "^1.2.5",
     "os": "^0.1.1",
     "slash": "^3.0.0",
-    "strip-ansi": "^6.0.0"
+    "strip-ansi": "^6.0.0",
+    "vue-jscodeshift-adapter": "^2.2.0"
   }
 }
