@@ -1,0 +1,19 @@
+{
+  "name": "111",
+  "version": "0.1.0",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "svelte": "^3.21.0",
+    "tua-body-scroll-lock": "^1.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.1",
+    "svelte-loader": "^2.13.6",
+    "svelte-preprocess": "^3.4.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
